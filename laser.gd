@@ -6,7 +6,7 @@ extends AnimatedSprite2D
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	global_position = Gamemaneger.character.global_position
-	global_position.y = 248.0 - 100
+	global_position.y = 704.0 - 100
 	animation_player.play("warn")
 
 func explode():

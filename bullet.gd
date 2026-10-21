@@ -3,7 +3,7 @@ extends CharacterBody2D
 
 var dir : Vector2 = Vector2.RIGHT
 var speed : float = 240
-var damage : int = 7
+var damage : int = 14
 var dead = false
 var looked = false
 func _ready():

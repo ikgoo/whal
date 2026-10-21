@@ -50,6 +50,6 @@ stream = ExtResource("9_ry61v")
 libraries/ = SubResource("AnimationLibrary_etj48")
 
 [node name="boss_t" type="Timer" parent="." unique_id=2102250187]
-wait_time = 5.0
+wait_time = 2.5
 
 [connection signal="timeout" from="boss_t" to="." method="_on_boss_t_timeout"]

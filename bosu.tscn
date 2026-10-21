@@ -797,6 +797,10 @@ wait_time = 0.1
 one_shot = true
 
 [node name="skill_timer" type="Timer" parent="." unique_id=1832276789]
+wait_time = 0.8
+
+[node name="tel_timer" type="Timer" parent="." unique_id=1467525303]
+wait_time = 3.0
 
 [node name="attack_area" type="Area2D" parent="." unique_id=980510559]
 visible = false
@@ -811,3 +815,4 @@ shape = SubResource("RectangleShape2D_dmili")
 [connection signal="timeout" from="attack_timer" to="." method="_on_attack_timer_timeout"]
 [connection signal="timeout" from="laser_timer" to="." method="_on_laser_timer_timeout"]
 [connection signal="timeout" from="skill_timer" to="." method="_on_skill_timer_timeout"]
+[connection signal="timeout" from="tel_timer" to="." method="_on_tel_timer_timeout"]
